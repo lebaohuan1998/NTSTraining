@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSTraining.Api", "NTSTraining.Api\NTSTraining.Api.csproj", "{54F718F9-DC27-4C80-B0DC-7D593A804CD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSTraining.Services", "NTSTraining.Services\NTSTraining.Services.csproj", "{9F71E649-2418-4B9D-9BC7-74B04303B1D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSTraining.Models", "NTSTraining.Models\NTSTraining.Models.csproj", "{1F0A07D8-3B65-4736-99C3-BFEABAF1EE26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTS.Common", "NTSCommon\NTS.Common.csproj", "{F41DCAC4-147E-4851-8629-E2CE790C2E99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTS.RabbitMQ", "NTS.RabbitMQ\NTS.RabbitMQ.csproj", "{33F1C2C4-148E-49BC-89EB-F660523C600B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTS.Redis", "NTS.Redis\NTS.Redis.csproj", "{EB462ACA-3DEB-48C0-A3AC-C5B8F43FECD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTS.Document", "NTS.Document\NTS.Document.csproj", "{D09C9AC9-35C0-4F4E-B0FF-EAA137529789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F718F9-DC27-4C80-B0DC-7D593A804CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F718F9-DC27-4C80-B0DC-7D593A804CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F718F9-DC27-4C80-B0DC-7D593A804CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F718F9-DC27-4C80-B0DC-7D593A804CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F71E649-2418-4B9D-9BC7-74B04303B1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F71E649-2418-4B9D-9BC7-74B04303B1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F71E649-2418-4B9D-9BC7-74B04303B1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F71E649-2418-4B9D-9BC7-74B04303B1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A07D8-3B65-4736-99C3-BFEABAF1EE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A07D8-3B65-4736-99C3-BFEABAF1EE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A07D8-3B65-4736-99C3-BFEABAF1EE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A07D8-3B65-4736-99C3-BFEABAF1EE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41DCAC4-147E-4851-8629-E2CE790C2E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41DCAC4-147E-4851-8629-E2CE790C2E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41DCAC4-147E-4851-8629-E2CE790C2E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41DCAC4-147E-4851-8629-E2CE790C2E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F1C2C4-148E-49BC-89EB-F660523C600B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F1C2C4-148E-49BC-89EB-F660523C600B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F1C2C4-148E-49BC-89EB-F660523C600B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F1C2C4-148E-49BC-89EB-F660523C600B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB462ACA-3DEB-48C0-A3AC-C5B8F43FECD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB462ACA-3DEB-48C0-A3AC-C5B8F43FECD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB462ACA-3DEB-48C0-A3AC-C5B8F43FECD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB462ACA-3DEB-48C0-A3AC-C5B8F43FECD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09C9AC9-35C0-4F4E-B0FF-EAA137529789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09C9AC9-35C0-4F4E-B0FF-EAA137529789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09C9AC9-35C0-4F4E-B0FF-EAA137529789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09C9AC9-35C0-4F4E-B0FF-EAA137529789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F918BCAF-A071-4D85-8181-12C0987FE649}
+	EndGlobalSection
+EndGlobal
